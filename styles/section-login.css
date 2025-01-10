@@ -61,9 +61,11 @@
 
     .input-login {
         height: 3rem;
+        border-radius: 2rem;
     }
 
     .button-login {
         height: 3rem;
+        border-radius: 2rem;
     }
 }
