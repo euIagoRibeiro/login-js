@@ -65,20 +65,18 @@ let users = JSON.parse(localStorage.getItem('users')) || [
     });
   }
   
-  // Função para excluir usuário
+
   function deleteUser(index) {
     if (confirm('Tem certeza que deseja excluir este usuário?')) {
-      // Remover usuário do array
+
       users.splice(index, 1);
       
-      // Atualizar o localStorage com a nova lista de usuários
       localStorage.setItem('users', JSON.stringify(users));
       
-      // Atualizar a lista exibida
       updateUserList();
     }
   }
   
-  // Inicializar a lista de usuários ao carregar a página
+
   updateUserList();
   

@@ -61,6 +61,13 @@
     margin: 5% 0% 0% 0%;
 }
 
+#error-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0% 0% 0%;
+}
+
 @media (min-width: 0px) and (max-width: 850px) {
 
     .section_login-container {
