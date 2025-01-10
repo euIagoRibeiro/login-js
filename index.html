@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header-container">
+        <nav class="header-content">
+
+            <div class="header-logo">
+
+                <a href="">
+                    <img class="header-logo-image" src="assets/javascript.png" alt="Logo do site">
+                </a>
+
+
+                <a href="">
+                    <span class="header-logo-text">Login</span>
+                </a>
+
+            </div>
+
+            <!-- <div class="header-list">
+                <ul class="header-list-itens">
+                    <li class="header-list-item">
+                        <a class="list-item-link" href="">Login</a>
+                    </li>
+                    <li class="header-list-item">
+                        <a class="list-item-link" href="">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-navbar">
+                <button onclick="menuShow()">
+                    <img class="mobile-icon" src="assets/menu.svg" alt="">
+                </button>
+            </div> -->
+
+        </nav>
+
+        <!-- MOBILE MENU
+        <div class="mobile_menu">
+            <ul class="mobile_menu-itens">
+
+                <a class="mobile_menu-item-link" href="admin.html">
+                    <li class="mobile_menu-item">
+                        <img src="assets/door-closed.svg" alt="Ícone de Cadastre-se">
+                        <p>Cadastre-se</p>
+                    </li>
+                </a>
+
+                <a class="mobile_menu-item-link" href="index.html">
+                    <li class="mobile_menu-item">
+                        <img src="assets/door-open.svg" alt="Ícone de Login">
+                        <p>Login</p>
+                    </li>
+                </a>
+
+
+            </ul>
+        </div> -->
+
+    </header>
+
+    <main>
+        <section class="section_login-container">
+
+            <div class="section_login-content">
+                <h2 class="login-title">Login</h2>
+                <form class="section_login-form" id="loginForm">
+                  <div class="form-username">
+                      <label for="username">Usuário:</label>
+                      <input class="input-login" type="text" id="username" required>
+                  </div>
+                  <div class="form-password">
+                      <label for="password">Senha:</label>
+                      <input class="input-login" type="password" id="password" required>
+                  </div>
+                  <button class="button-login" type="submit">Entrar</button>
+                </form>
+                <p id="error-message"></p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

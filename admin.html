@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header-container">
+        <nav class="header-content">
+
+            <div class="header-logo">
+
+                <a href="">
+                    <img class="header-logo-image" src="assets/javascript.png" alt="Logo do site">
+                </a>
+
+
+                <a href="">
+                    <span class="header-logo-text">Login</span>
+                </a>
+
+            </div>
+
+            <!-- <div class="header-list">
+                <ul class="header-list-itens">
+                    <li class="header-list-item">
+                        <a class="list-item-link" href="">Login</a>
+                    </li>
+                    <li class="header-list-item">
+                        <a class="list-item-link" href="">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-navbar">
+                <button onclick="menuShow()">
+                    <img class="mobile-icon" src="assets/menu.svg" alt="">
+                </button>
+            </div> -->
+
+        </nav>
+
+        <!-- MOBILE MENU
+        <div class="mobile_menu">
+            <ul class="mobile_menu-itens">
+
+                <a class="mobile_menu-item-link" href="">
+                    <li class="mobile_menu-item">
+                        <img src="assets/door-closed.svg" alt="Ícone de Cadastre-se">
+                        <p>Cadastre-se</p>
+                    </li>
+                </a>
+
+                <a class="mobile_menu-item-link" href="">
+                    <li class="mobile_menu-item">
+                        <img src="assets/door-open.svg" alt="Ícone de Login">
+                        <p>Login</p>
+                    </li>
+                </a>
+
+
+            </ul>
+        </div> -->
+
+    </header>
+
+    <main>
+        <section class="section_admin-container">
+
+            <div class="section_admin-content">
+                <h2 class="admin-title">Cadastrar Novo Usuário</h2>
+                <form class="section_admin-form" id="adminForm">
+                  <div class="admin-username">
+                      <label for="newUsername">Nome de Usuário:</label>
+                      <input class="input-admin" type="text" id="newUsername" required>
+                  </div>
+                  
+                  <div class="admin-password">
+                      <label for="newPassword">Senha:</label>
+                      <input class="input-admin" type="password" id="newPassword" required>
+                  </div>
+            
+                  <button class="button-admin" type="submit">Cadastrar</button>
+                </form>
+                <p id="admin-error-message"></p>
+            
+                <h3 class="admin-title">Usuários Cadastrados:</h3>
+                <ul id="userList"></ul>
+                
+                <button class="button-admin" id="logoutButton">Logout</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="admin.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
