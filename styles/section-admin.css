@@ -67,3 +67,18 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .section_admin-container {
+        height: 80vh;
+    }
+
+    .input-admin {
+        height: 3rem;
+    }
+
+    .button-admin {
+        height: 3rem;
+    }
+}

@@ -56,3 +56,14 @@
     font-size: 1rem;
     margin: 5% 0% 0% 0%;
 }
+
+@media (min-width: 0px) and (max-width: 850px) {
+
+    .input-login {
+        height: 3rem;
+    }
+
+    .button-login {
+        height: 3rem;
+    }
+}
