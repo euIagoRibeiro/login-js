@@ -81,7 +81,7 @@ O administrador pode deslogar a qualquer momento clicando no botão **Logout**. 
 
 Os dados dos usuários são armazenados de forma persistente no `localStorage`, permitindo que os usuários cadastrados e as modificações permaneçam disponíveis entre as sessões. Mesmo que o navegador seja fechado e reaberto, os dados persistem.
 
-## Conclusão
+# Conclusão
 
 Este sistema simples de login e administração permite que o usuário faça login, adicione novos usuários, exclua usuários existentes e faça logout. Ele usa o `localStorage` para persistência de dados entre as sessões. Embora seja uma solução simples e não muito segura para produção, é um ótimo exercício para aprender os conceitos básicos de manipulação de DOM e armazenamento no navegador.
 
