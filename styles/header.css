@@ -16,7 +16,7 @@
 }
 
 .header-logo-image {
-    width: 4vw;
+    width: 3.5vw;
 }
 
 .header-list {
@@ -49,63 +49,11 @@
 @media (min-width: 0px) and (max-width: 850px) {
 
     .header-content {
-        padding: 2% 5% 2% 5%;
+        padding: 3% 5% 3% 5%;
     }
 
     .header-logo-image {
         width: 10vw;
-    }
-
-    .header-list {
-        display: none;
-    }
-
-    .header-navbar {
-        display: flex;
-    }
-
-    .header-navbar > button {
-        background-color: transparent;
-        outline: none;
-        border: none;
-    }
-
-    .mobile_menu {
-        display: none;
-        padding: 2% 0% 5% 0%;
-    }
-
-    .open {
-        display: block;
-    }
-    
-    .mobile_menu-itens {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mobile_menu-item-link {
-        display: flex;
-        transition: .4s;
-    }
-
-    .mobile_menu-item-link:hover {
-        padding-left: 2rem;
-    }
-
-
-    .mobile_menu-item {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        padding: 2% 0% 2% 20%;
-
-        font-size: 1.2rem;
-    }
-
-    .mobile_menu-item > img {
-        width: 8vw;
     }
 
 }

@@ -19,6 +19,7 @@
 
 body {
     font-family: var(--second-font);
+    color: var(--color-black);
 }
 
 a {

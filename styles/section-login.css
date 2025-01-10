@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 90vh;
+
 }
 
 .section_login-content {
@@ -11,6 +12,7 @@
     border: 1px solid var(--color-black);
     border-radius: 1rem;
     padding: 5% 8% 5% 8%;
+    margin: 0% 0% 5% 0%;
 }
 
 .login-title {
@@ -29,11 +31,13 @@
 .form-username {
     display: flex;
     flex-direction: column;
+    gap: 0.4rem;
 }
 
 .form-password {
     display: flex;
     flex-direction: column;
+    gap: 0.4rem;
 }
 
 .input-login {
