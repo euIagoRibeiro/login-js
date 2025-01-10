@@ -63,6 +63,11 @@
 
 @media (min-width: 0px) and (max-width: 850px) {
 
+    .section_login-container {
+        height: 80vh;
+    
+    }    
+
     .input-login {
         height: 3rem;
         border-radius: 2rem;
